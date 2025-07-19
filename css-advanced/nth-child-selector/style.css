@@ -1,0 +1,19 @@
+p {
+    font-size: 1.5em;
+}
+
+p:first-child {
+    background-color: blue;
+}
+
+p:nth-child(3) {
+    background-color: red;
+}
+
+p:nth-child(even) {
+    background-color: yellow;
+}
+
+/* ul li:nth-child(n + 4) {
+
+} */

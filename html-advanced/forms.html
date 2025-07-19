@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Semantic Element -->
+    <header>
+        <h1>Tufan Duzel</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">Service</a>
+        </nav>
+    </header> <br>
+    <form action="process.php">
+        <!-- HTML5 Input -->
+         <label for="name">Name</label> <br>
+         <input type="text" id="name" name="name" placeholder="Your name"> <br>
+
+         <label for="email">Email</label> <br>
+         <input type="email" name="email" id="email" placeholder="Your E-mail"> <br>
+
+         <label for="password">password</label> <br>
+         <input type="password" id="password" name="password"> <br>
+
+         <label for="date">Date</label> <br>
+         <input type="date" name="date" id="date"> <br>
+
+         Gender: <br>
+         Female
+         <input type="radio" name="gender" value="female" checked>
+         Male
+         <input type="radio" name="gender" value="male"> <br>
+
+         Hobbies: <br>
+         Tech
+         <input type="checkbox" name="tech" id="tech">
+         Music
+         <input type="checkbox" name="music" id="tech">
+         Art
+         <input type="checkbox" name="art" id="art"> <br>
+
+         Degree: <br>
+         <select name="degree" id="degree">
+            <option value="bachelor" selected>Lisans</option>
+            <option value="msc">Yüksek Lisans</option>
+            <option value="phd">Doktora</option>
+         </select> <br>
+
+         Message: <br>
+         <textarea name="message" id="message" rows="5" cols="25" placeholder="Your message"></textarea> <br>
+
+         <!-- <button type="submit">Submit</button> -->
+         <input type="submit" value="Submit">
+         <input type="reset" value="Reset">
+    </form>
+
+    <!-- Semantic Elements -->
+     <section id="section-little">
+        <article>Story 1</article>
+        <article>Story 2</article>
+        <article>Story 3</article>
+     </section>
+
+     <section id="section-big">
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+     </section> <br>
+
+     <footer>
+        Copyright
+     </footer>
+</body>
+</html>

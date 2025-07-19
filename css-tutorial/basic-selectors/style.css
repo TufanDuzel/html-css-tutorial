@@ -1,0 +1,40 @@
+h1, p {
+    color: red;
+    background-color: antiquewhite;
+}
+
+#logo {
+    color: blue;
+    background-color: aliceblue;
+}
+
+.info {
+    color: green;
+}
+
+/*
+#logo, .lead {
+    color: orange;
+}
+*/
+
+#para1.info {
+    color: black;
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.info span {
+    color: rgb(236, 10, 236);
+}
+
+* {
+    font-size: 25px;
+}

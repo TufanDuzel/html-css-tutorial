@@ -1,0 +1,19 @@
+.box-1 {
+    background-color: seagreen;
+    color: white;
+}
+
+.box-2 {
+    width: 640px;
+    height: 360px;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+.logo {
+    background-image: url(images/logo.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* background-attachment: fixed; */
+}

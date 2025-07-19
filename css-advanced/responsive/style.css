@@ -1,0 +1,26 @@
+body {
+    background: red;
+}
+
+@media(max-width: 768px) {
+    body {
+        background: blue;
+    }
+}
+
+@media(max-width: 500px) {
+    body {
+        background: green;
+    }
+}
+
+p {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    p {
+        display: block;
+        color: white;
+    }
+}

@@ -1,0 +1,12 @@
+div#box-1 {
+    width: 50%;
+    /* max-width: 500px; */
+    height: 100px;
+    background: #a7a7a7;
+}
+
+/* div#box-2 {
+    width: 50%;
+    height: 50%;
+    background: red;
+} */
